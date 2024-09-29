@@ -1,0 +1,68 @@
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #191919;
+}
+body {
+    background-color: #111111;
+    font-family: 'Jacquarda Bastarda 9';
+    margin: 0;
+}
+.menu_link{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 50px 70px;
+}
+.cart_btn{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Jacquarda Bastarda 9';
+   
+}
+.banner{
+    height: 90vh;
+    background-image: url(img/image\ 2.png);
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 100;
+
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.background-block {
+    background-color: #FF4654; /* Solid color block */
+    padding: 20px;
+    position: relative;
+}
+.image-placeholder {
+    background-color: #ccc; /* Placeholder color */
+    padding: 50px;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+.button {
+    background-color: #942727; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
