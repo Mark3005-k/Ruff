@@ -40,29 +40,171 @@ body {
     font-weight: 100;
 
 }
+
+.Catalog{
+   padding: 50px 0;
+}
 .container {
-    width: 300px;
+    
     margin: 0 auto;
     text-align: center;
-    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 0 100px;
+    flex-wrap: wrap;
 }
+
 .background-block {
-    background-color: #FF4654; /* Solid color block */
-    padding: 20px;
+    width: 370px;
+    padding-bottom: 20px;
     position: relative;
+    border-radius: 62px;
+    box-sizing: border-box;
+   overflow: hidden; 
+   transition: 0.3s all ease;
+}
+
+#background-block_1 {
+    background-color: #FF4654; 
+}
+#background-block_2{
+    background-color: #838B7D; 
+}
+
+#background-block_3{
+    background-color: #ACCDEE; 
+}
+
+
+.background-block img{
+    width: 100%;
 }
 .image-placeholder {
-    background-color: #ccc; /* Placeholder color */
+    background-color: #ccc; 
     padding: 50px;
     margin: 20px 0;
     font-size: 24px;
     color: #333;
 }
-.button {
-    background-color: #942727; /* Button color */
-    color: #fff;
+/* .button{
+
+
+    font-family: 'Jacquarda Bastarda 9';
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer; 
+    margin-top: 50px;
+    font-size: 24px ;
+    border-radius: 25px ;
+    transition: 0.3s all ease;
+}*/
+/* #button_1 {
+    background-color: #942727; 
+    color: #fff;
 }
+
+#button_2 {
+    background-color: #424242; 
+    color: #fff;
+}
+
+#button_3 {
+    background-color: #75A3D0; 
+    color: #fff;
+
+} */ 
+
+
+
+.background-block:hover{
+
+   animation: anim 0.3s ;
+}
+
+@keyframes anim {
+    0%{
+        transform: none;
+    }
+    30%{
+        transform: rotate(1deg);
+    }
+    70%{
+        transform: rotate(-1deg);
+    }
+}
+
+.button {
+    font-family: '';
+    font-weight: 30px;
+    position: relative;
+    background-color: transparent;
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    padding: 0;
+
+  }
+  
+  .button::before {
+    content: "Buy";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(135deg,#7b4397,#dc2430 );
+    transform: translate(0%,90%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button::after {
+
+    content: "500$";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    transform: translate(0%,0%);
+  }
+  
+  .button:hover::after {
+    transform: translate(0%,-200%);
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:active {
+    scale: 0.95;
+  }
+  
+
+  #button_1::after{
+    background-color: #942727; 
+  }
