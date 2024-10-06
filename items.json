@@ -1,8 +1,50 @@
 [
     {
-        "title": "game",
-        "price": "500",
-        "image": "item.png"
-    }
+        "title": "Valorant",
+        "price":  199,
+        "image": "image 4.png",
+        "bgColor": "#FF4654",
+        "btnColor": "#a92c37"
+    },
+
+    {
+        "title": "Stalker",
+        "price":  299,
+        "image": "image 5.png",
+        "bgColor": "#838B7D",
+        "btnColor": "#52564f"
+    },
+
+    {
+        "title": "Roblox",
+        "price":  399,
+        "image": "image 6.png",
+        "bgColor": "#ACCDEE",
+        "btnColor": "#668db2"
+    },
+
+    {
+        "title": "GTA",
+        "price":  500,
+        "image": "image 1.png",
+        "bgColor": "#E7EEC2",
+        "btnColor": "#a4aa87"
+    },
+
+    {
+        "title": "Minecraft",
+        "price":  499,
+        "image": "image 3.png",
+        "bgColor": "#C7D8FB",
+        "btnColor": "#8d9bb8"
+    },
+
+    {
+        "title": "Fortnite",
+        "price":  399,
+        "image": "image .png",
+        "bgColor": "#C578BE",
+        "btnColor": "#763e71"
+    },
     
 ]
