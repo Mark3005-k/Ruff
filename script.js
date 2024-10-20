@@ -50,9 +50,13 @@ function searchProducts(event){
             })
         }
     })
+    field.value = ''
 }
 
 let searchForm = document.querySelector('.search')
 searchForm.addEventListener('submit', searchProducts)
 let searchBtn = document.querySelector('.search_btn')
 searchBtn.addEventListener('click', searchProducts)
+
+
+
