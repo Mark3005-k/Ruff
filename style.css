@@ -319,3 +319,38 @@ body {
     background-color: rgb(31, 31, 31);
     color: rgb(255, 255, 255);
 }
+
+.Support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_1{
+    border-radius: 30px;
+    background-color: #414141;
+    width: 80%;
+    justify-content: space-around ;
+    display: flex;
+    align-items: center;
+    margin-top:10%;
+    
+}
+
+.div_1 div{
+    font-weight: 5; 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.img_1{
+    width: 40px;
+    height: 40px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
